@@ -130,6 +130,8 @@ public class VariablesTest {
 }
 ```
 
+You will find if you run this code as written there is a bug! Check the error message shown and correct it.
+
 Add a second line of code to display the value of variable `x`.
 
 ```java
@@ -174,7 +176,7 @@ It is important to be aware of some of the behaviours of Java. The example state
 Add the following to your file and display their values (again using format *`name: value`*). 
 
 ```java
-float area = 20.3F
+float area = 20.3F;
 char a = '\u5468', b = '\\';
 int nHours = 022;
 double ratio = 7/5;
