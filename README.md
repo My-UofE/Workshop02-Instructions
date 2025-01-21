@@ -314,7 +314,7 @@ This is because, as indicated in the function definition, the arguments are in t
 To convert the string to an integer we can use the following code:
 
 ```java
-int currentDay = Integer.ParseInt(args[0]);
+int currentDay = Integer.parseInt(args[0]);
 ```
 
 Edit your code so that it can be used with different inputs. Check that for the following inputs your code matches the output below:
