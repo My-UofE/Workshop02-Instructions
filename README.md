@@ -190,7 +190,7 @@ Add the following to the bottom of your code, and you should see this effect in 
 double d1 = 0.29/0.0001;
 double d2 = 0.00029*1.0e7;
 System.out.println("d1: " + d1);
-System.out.println("d2: " + d1);
+System.out.println("d2: " + d2);
 ```
 
 An issue that results from this can occur if we try to test floating point numbers for equality. Add the following line to your code, that checks if `d1` and `d2` store the same value.
@@ -199,7 +199,7 @@ An issue that results from this can occur if we try to test floating point numbe
 System.out.println("d1 equals d2: " + (d1 == d2) );
 ```
 
-When I run this code the test evaluates to `false` (even though for me they both display as the same value!). It is important to remember that even neglibly small differences can affect a test comparing the values of floating point numbers. 
+When I run this code the test evaluates to `false` even though mathematically the exact calculation results should match. It is important to remember that even neglibly small differences can affect a test comparing the values of floating point numbers. 
 
 For this reason while we may use an equality test on integer values, we avoid them for floating point numbers. Instead code similar to the following can be used to check if floating point numbers store the same value to a given tolerance.
 
