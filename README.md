@@ -88,7 +88,7 @@ e.g. we can use this to rewrite our code in the following way (note how the fina
 ```java
 System.out.print("Hello World! My name is ");
 System.out.print(args[0]);
-System.out.println(".")
+System.out.println(".");
 ```
 
 **Task**
