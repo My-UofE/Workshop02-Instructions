@@ -130,7 +130,7 @@ public class VariablesTest {
 }
 ```
 
-You will find if you run this code as written there is a bug! Check the error message shown and correct it.
+You will find if you try to compile this code as written there is a bug! Check the error message shown and correct it.
 
 Add a second line of code to display the value of variable `x`.
 
