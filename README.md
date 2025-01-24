@@ -43,6 +43,8 @@ If the compilation failed, try to fix it yourself by reading the error message.
 
 Ask one of the teaching team (or neighbour) if you are not able to fix the problem.
 
+Note that we do not usually wish to commit the Java Byte Code `.class` files into git. This is because as long as we have the source code, we can rebuilt it. This ensures our repository can be stored in less space and updated efficiently.
+
 #### 1.4 Run the program
 
 At this point you should have successfully generated the java byte code (`HelloWorldApp.class`), we may pass it to the Java virtual Machine (JVM) to be interpreted and run. 
@@ -83,7 +85,7 @@ Hello World! My name is YOURNAME.
 
 Note that in addition to `System.out.println` java has the command `System.out.print` (which prints without ending with a newline) and is useful if we want to build up output in stages.
 
-e.g. we can use this to rewrite our code in the following way (note how the final section uses `println` to end the line.)
+e.g. we can use this to rewrite our code in the following way (note how the final section uses `println` to end with a newline command and the `ln` in this command is a lower case `L` not upper case `I`.
 
 ```java
 System.out.print("Hello World! My name is ");
